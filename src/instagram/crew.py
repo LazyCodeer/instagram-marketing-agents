@@ -1,5 +1,11 @@
+import sys
+import os
+
+# sys.path.append(os.path.join(os.path.dirname(__file__), "..", "src"))
+
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
+# from instagram_agent.tools.search import SearchTools
 from instagram.tools.search import SearchTools
 
 # Uncomment the following line to use an example of a custom tool
